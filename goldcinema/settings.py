@@ -23,7 +23,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'unsafe-default-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ["marketplacetshirtsforsale.onrender.com"]
+ALLOWED_HOSTS = ["markettshirtsforsale.onrender.com"]
 
 # Application definition
 INSTALLED_APPS = [
@@ -104,4 +104,5 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
