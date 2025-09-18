@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-sqa#g^==b18u3!-si$zz9gc1i@h96w4!y@2*wg374jt(4348sv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["cinema.onrender.com"]
+ALLOWED_HOSTS = ["marketplace.onrender.com"]
 
 
 # Application definition
@@ -142,4 +142,5 @@ DATABASES = {
         ssl_require=True
     )
 }
+
 
